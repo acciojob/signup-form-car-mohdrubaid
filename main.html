@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form action="abc@gmail.com" method="get">
+	<form action="abc@gmail.com" method="post">
 		<div>
 		<label for="name">Name</label>
 		<input type="text" placeholder="Name" id="name" required>
@@ -23,7 +23,7 @@
 		</div>
 		<div>
 			<label for="cars">Car Brands</label> 
-			<select name="cars" id="cars">
+			<select name="cars" placeholder="--Please choose an option--" id="cars" required>
 			<option value="BMW">BMW</option>
 			<option value="Audi">Audi</option>
 			<option value="Mercedez">Mercedez</option>
@@ -38,8 +38,8 @@
 			<input type="date" id="dob" required>
 		</div>
 		<div>
-			<label for="phonenumber">Phone Number</label>
-			<input type="number" placeholder=xxx-xxx-xxxx id="phonenumber">
+			<label for="tel">Phone Number</label>
+			<input type="number" placeholder="xxx-xxx-xxxx" id="tel">
 		</div>
 		<div>
 			<label for="password">Password</label>
